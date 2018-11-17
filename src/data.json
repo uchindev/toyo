@@ -2,6 +2,24 @@
     "info": {
         "firstTitle": "TOYOTA",
         "secondTitle": "PHÚ YÊN",
-        "description": "TỰ HÀO VỊ THẾ DẪN ĐẦU"
+        "description": "TỰ HÀO VỊ THẾ DẪN ĐẦU",
+        "urlHomePage": "/san-pham/xe-moi"
+    },
+    "list": {
+        "product": {
+            "id": "product"
+        },
+        "services": {
+            "id": "services"
+        },
+        "contact": {
+            "id": "contact"
+        },
+        "tools": {
+            "id": "tools"
+        },
+        "overview": {
+            "id": "overview"
+        }
     }
 }
