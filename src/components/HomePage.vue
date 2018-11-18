@@ -6,14 +6,17 @@
             </a>
         </div>
         <s-v-g-component/>
+        <contact-phone/>
     </div>
 </template>
 <script>
-    import SVGComponent from './SVGComponent';
+    import SVGComponent from './SVGComponent'
+    import ContactPhone from './ContactPhone'
     export  default {
         name: 'HomeComponent',
         components: {
-            SVGComponent
+            SVGComponent,
+            ContactPhone
         }
     }
 </script>
@@ -30,7 +33,7 @@
     }
 
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 523px) {
         .logo {
             text-align: center;
             padding-top: 20px;

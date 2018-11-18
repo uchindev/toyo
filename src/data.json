@@ -5,6 +5,20 @@
         "description": "TỰ HÀO VỊ THẾ DẪN ĐẦU",
         "urlHomePage": "/san-pham/xe-moi"
     },
+    "contact": [
+        {
+            "name": "Hotline Bán hàng",
+            "phone": "0934 89 15 15"
+        },
+        {
+            "name": "Hotline Dịch vụ",
+            "phone": "0902 279 900"
+        },
+        {
+            "name": "Tổng đài",
+            "phone": "(024) 3768 6666"
+        }
+    ],
     "list": {
         "product": {
             "id": "product",

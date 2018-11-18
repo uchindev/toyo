@@ -299,6 +299,10 @@ export default {
         }
     },
     mounted() {
+        fetch('data.json').then(e => e.json()).then(e => {
+            this.info = e.info
+            this.list = e.list
+        })
         this.hideAllContentView()
         let { svgAnimation } = this.$refs
         this.max = new TimelineMax()
