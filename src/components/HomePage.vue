@@ -1,15 +1,16 @@
 <template>
-    <div>
+    <div class="homepage">
         <div class="logo">
             <a href="#">
                 <img src="../assets/logo.png" alt="logo">
             </a>
         </div>
-        <s-v-g-component/>
-        <contact-phone/>
+        <s-v-g-component v-bind:list="list" v-bind:info="info"/>
+        <contact-phone v-bind:contacts="contacts"/>
     </div>
 </template>
 <script>
+    import json from './../data.json'
     import SVGComponent from './SVGComponent'
     import ContactPhone from './ContactPhone'
     export  default {
@@ -17,6 +18,22 @@
         components: {
             SVGComponent,
             ContactPhone
+        },
+        data() {
+            return {
+                list: json.list,
+                info: json.info,
+                contacts: json.contact
+            }
+        },
+        mounted() {
+            fetch('data.json').then(e => e.json()).then(e => {
+                this.list = e.list
+                this.info = e.info
+                this.contacts = e.contact
+                if (e.status == 'success')
+                    document.querySelector('.homepage').style.display = 'block'
+            })
         }
     }
 </script>
@@ -31,7 +48,9 @@
     .logo > a > img {
         width: 130px;
     }
-
+    .homepage {
+        display: none;
+    }
 
     @media screen and (max-width: 523px) {
         .logo {

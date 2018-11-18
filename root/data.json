@@ -1,0 +1,105 @@
+{
+    "status": "success",
+    "info": {
+        "firstTitle": "TOYOTA",
+        "secondTitle": "PHÚ YÊN",
+        "description": "TỰ HÀO VỊ THẾ DẪN ĐẦU",
+        "urlHomePage": "/san-pham/xe-moi"
+    },
+    "contact": [
+        {
+            "name": "Hotline Bán hàng",
+            "phone": "0934 89 15 15"
+        },
+        {
+            "name": "Hotline Dịch vụ",
+            "phone": "0902 279 900"
+        },
+        {
+            "name": "Tổng đài",
+            "phone": "(024) 3768 6666"
+        }
+    ],
+    "list": {
+        "product": {
+            "id": "product",
+            "element": {
+                "ele1": {
+                    "name": "Giá xe",
+                    "url": "/gia-xe"
+                },
+                "ele2": {
+                    "name": "Xe đã qua sử dụng",
+                    "url": "/xe-da-qua-su-dung"
+                },
+                "ele3": {
+                    "name": "Xe mới",
+                    "url": "/xe-moi"
+                }
+            }
+        },
+        "services": {
+            "id": "services",
+            "element": {
+                "ele1": {
+                    "name": "Ưu đãi dịch vụ",
+                    "url": "/gia-xe"
+                },
+                "ele2": {
+                    "name": "Hỗ trợ cứu hộ",
+                    "url": "/xe-da-qua-su-dung"
+                },
+                "ele3": {
+                    "name": "Bảo dưỡng và sửa chữa",
+                    "url": "/xe-moi"
+                }
+            }
+        },
+        "contact": {
+            "id": "contact",
+            "url": "/uu-dai"
+        },
+        "tools": {
+            "id": "tools",
+            "element": {
+                "ele1": {
+                    "name": "Nhận thông tin",
+                    "url": "/gia-xe"
+                },
+                "ele2": {
+                    "name": "Đặt hẹn dịch vụ",
+                    "url": "/xe-da-qua-su-dung"
+                },
+                "ele3": {
+                    "name": "Đăng ký lái thử",
+                    "url": "/xe-moi"
+                },
+                "ele4": {
+                    "name": "So sánh xe",
+                    "url": "/so-sanh-xe"
+                },
+                "ele5": {
+                    "name": "Dự toán chi phí",
+                    "url": "/du-toan-chi-phi"
+                }
+            }
+        },
+        "overview": {
+            "id": "overview",
+            "element": {
+                "ele1": {
+                    "name": "Tin nội bộ",
+                    "url": "/gia-xe"
+                },
+                "ele2": {
+                    "name": "Tin tổng hợp",
+                    "url": "/xe-da-qua-su-dung"
+                },
+                "ele3": {
+                    "name": "Giới thiệu công ty",
+                    "url": "/xe-moi"
+                }
+            }
+        }
+    }
+}

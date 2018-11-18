@@ -6,7 +6,7 @@
             </span>
         </a>
         <ul class="list-phone">
-            <li v-for="contact in contacts">
+            <li v-for="contact in $props.contacts">
                 <a v-bind:href="'tel:' + contact.phone">
                     <span class="icon-phone">
                         <img src="./../assets/phone-icon.png" alt="icon" class="icon-phone-home">
@@ -19,19 +19,13 @@
     </div>
 </template>
 <script>
-import json from './../data.json'
 export default {
+    props: ['contacts'],
     name: 'ContactPhone',
     data() {
         return {
-            contacts: json.contact,
             state: true
         }
-    },
-    mounted() {
-        fetch('data.json').then(e => e.json()).then(e => {
-            this.contacts = e.contact
-        })
     },
     methods: {
         toggleContact() {
@@ -83,7 +77,7 @@ export default {
         color: #000;
     }
     .floating-moblie {
-        position: absolute;
+        position: fixed;
         bottom: 16px;
         left: 16px;
         padding: 6px 56px;
