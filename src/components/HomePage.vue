@@ -1,7 +1,7 @@
 <template>
     <div class="homepage">
         <div class="logo">
-            <a href="#">
+            <a :href="urlLogo">
                 <img src="../assets/logo.png" alt="logo">
             </a>
         </div>
@@ -23,7 +23,8 @@
             return {
                 list: json.list,
                 info: json.info,
-                contacts: json.contact
+                contacts: json.contact,
+                urlLogo: null
             }
         },
         mounted() {
@@ -31,6 +32,7 @@
                 this.list = e.list
                 this.info = e.info
                 this.contacts = e.contact
+                this.urlLogo = e.info.urlLogo
                 if (e.status == 'success')
                     document.querySelector('.homepage').style.display = 'block'
             })
