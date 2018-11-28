@@ -53,7 +53,7 @@ export default {
         top: 0px;
     }
     .list-phone {
-        position: absolute;
+        position: fixed;
         right: 15px;
         padding: 0;
         list-style: none;

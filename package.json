@@ -5,7 +5,7 @@
   "author": "Uchinka",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --host 0.0.0.0 --port 8081 --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
   },

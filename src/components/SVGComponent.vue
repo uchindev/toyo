@@ -240,9 +240,9 @@
             </g>
             <a v-bind:href="list.contact.url">
             <g id="btn-contact" class="circle-nav">
-                <circle fill="#818285" cx="929.565" cy="194.573" r="40"></circle>
+                <circle fill="#818285" cx="917.565" cy="194.573" r="50"></circle>
                 <g>
-                    <text transform="matrix(0.93 0 0 1 907.9214 199.2695)" fill="#FFFFFF" font-size="19" font-weight="600">Ưu Đãi</text>
+                    <text transform="matrix(0.93, 0, 0, 1, 876.921, 199.27)" fill="#FFFFFF" font-size="19" font-weight="600">Tuyển dụng</text>
                 </g>
             </g>
             </a>
@@ -431,6 +431,9 @@ export default {
     }
     .circle-nav.actived > circle {
         fill: #eb1b2e;
+    }
+    a {
+        cursor: pointer;    
     }
     @media screen and (min-width: 320px) {
         svg#svg-homepage {
