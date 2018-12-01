@@ -1,22 +1,24 @@
 {
+    "status": "success",
     "info": {
         "firstTitle": "TOYOTA",
         "secondTitle": "PHÚ YÊN",
         "description": "TỰ HÀO VỊ THẾ DẪN ĐẦU",
-        "urlHomePage": "/san-pham/xe-moi"
+        "urlHomePage": "/toyota-phu-yen/",
+		"urlLogo": "/"
     },
     "contact": [
         {
+            "name": "Tổng đài",
+            "phone": "1800 78 9999"
+        },
+        {
             "name": "Hotline Bán hàng",
-            "phone": "0934 89 15 15"
+            "phone": "1800 78 9999"
         },
         {
             "name": "Hotline Dịch vụ",
-            "phone": "0902 279 900"
-        },
-        {
-            "name": "Tổng đài",
-            "phone": "(024) 3768 6666"
+            "phone": "1800 78 9999"
         }
     ],
     "list": {
@@ -25,7 +27,7 @@
             "element": {
                 "ele1": {
                     "name": "Giá xe",
-                    "url": "/gia-xe"
+                    "url": "/cac-mau-xe"
                 },
                 "ele2": {
                     "name": "Xe đã qua sử dụng",
@@ -33,45 +35,50 @@
                 },
                 "ele3": {
                     "name": "Xe mới",
-                    "url": "/xe-moi"
+                    "url": "/cac-mau-xe"
                 }
-            }
+            },
+            "iconUrl": "/wigo-g-1-2-mt"
         },
         "services": {
             "id": "services",
             "element": {
                 "ele1": {
                     "name": "Ưu đãi dịch vụ",
-                    "url": "/gia-xe"
+                    "url": "/khuyen-mai"
                 },
                 "ele2": {
                     "name": "Hỗ trợ cứu hộ",
-                    "url": "/xe-da-qua-su-dung"
+                    "url": "/lien-he"
                 },
                 "ele3": {
                     "name": "Bảo dưỡng và sửa chữa",
-                    "url": "/xe-moi"
+                    "url": "/dich-vu-sau-ban-hang"
+                },
+                "ele4": {
+                    "name": "Đặt hẹn dịch vụ",
+                    "url": "/lien-he"
                 }
             }
         },
         "contact": {
             "id": "contact",
-            "url": "/uu-dai"
+            "url": "/tuyen-dung"
         },
         "tools": {
             "id": "tools",
             "element": {
                 "ele1": {
                     "name": "Nhận thông tin",
-                    "url": "/gia-xe"
+                    "url": "/lien-he"
                 },
                 "ele2": {
                     "name": "Đặt hẹn dịch vụ",
-                    "url": "/xe-da-qua-su-dung"
+                    "url": "/lien-he"
                 },
                 "ele3": {
                     "name": "Đăng ký lái thử",
-                    "url": "/xe-moi"
+                    "url": "/lien-he"
                 },
                 "ele4": {
                     "name": "So sánh xe",
@@ -88,15 +95,15 @@
             "element": {
                 "ele1": {
                     "name": "Tin nội bộ",
-                    "url": "/gia-xe"
+                    "url": "/tin-noi-bo"
                 },
                 "ele2": {
                     "name": "Tin tổng hợp",
-                    "url": "/xe-da-qua-su-dung"
+                    "url": "/tin-tuc"
                 },
                 "ele3": {
                     "name": "Giới thiệu công ty",
-                    "url": "/xe-moi"
+                    "url": "/gioi-thieu"
                 }
             }
         }
