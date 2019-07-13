@@ -1025,6 +1025,12 @@ export default {
         }
     },
     mounted() {
+        this.$el.querySelectorAll('a').forEach(e => {
+            e.addEventListener('click', function(ele) {
+                event.preventDefault();
+                document.location.href = this.getAttribute('href');
+            })
+        })
         this.hideAllContentView()
         let { svgAnimation } = this.$refs
         this.max = new TimelineMax()
